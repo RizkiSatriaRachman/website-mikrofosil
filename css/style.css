@@ -1,0 +1,52 @@
+/* Navbar */
+.mikrofosil {
+
+    font-size: 28px !important;
+}
+
+/* Dokumentasi */
+.Dokumentasi {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/* Galeri */
+.Galeri .carousel {
+    height: 320px;
+    border: 2px solid #c5e1a5;
+    margin-top: 10px;
+}
+
+/* Kontak */
+.Kontak {
+    padding-top: 5px;
+}
+
+.last {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.copyright {
+    margin-top: -20px;
+    padding: 1px;
+}
+
+/* Dekstop Visual */
+@media(min-width: 600px){
+
+    .Dokumentasi .gambardoc {
+        height: 210px;
+    }
+
+}
+
+/* Mobile Visual */
+@media(max-width: 600px){
+
+    .mikrofosil {
+        font-size: 18px !important;
+    }
+
+}
+
